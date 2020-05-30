@@ -1,6 +1,5 @@
 # Marlin 3D Printer Firmware
-
-## Firmware configured for Ender-3 + SKR 1.3 + bltouch
+## Firmware configured for Ender-3 + SKR 1.3 + bltouch by Hudrolax
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
