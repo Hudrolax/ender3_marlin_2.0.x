@@ -75,7 +75,7 @@
 #endif
 #if HOTENDS == 1
   #ifndef FAN1_PIN
-    #define FAN1_PIN                       P2_04
+    //#define FAN1_PIN                       P2_04
   #endif
 #else
   #ifndef HEATER_1_PIN
@@ -83,7 +83,7 @@
   #endif
 #endif
 #ifndef FAN_PIN
-  #define FAN_PIN                          P2_03
+  //#define FAN_PIN                          P2_03
 #endif
 #ifndef HEATER_BED_PIN
   #define HEATER_BED_PIN                   P2_05
@@ -115,3 +115,6 @@
 #elif SD_CONNECTION_IS(CUSTOM_CABLE)
   #error "No custom SD drive cable defined for this board."
 #endif
+
+#define SPINDLE_LASER_PWM_PIN     P2_03  // digital pin - MUST BE HARDWARE PWM
+#define SPINDLE_LASER_ENA_PIN     P2_04
